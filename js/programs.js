@@ -1,33 +1,33 @@
 const programArr = [
     {
         id: 0,
-        icon: 'img/4375173_logo_python_icon.svg',
-        title: 'Lecture',
-        description: 'Listen to the speakers from various countries about the messages of sharing and opening.',
+        icon: '<i class="fa-brands fa-python fa-3x ash"></i>',
+        title: 'Python',
+        description: 'Python is a high-level, general-purpose programming language. It is often described as a "batteries included" language.',
     },
     {
         id: 1,
-        icon: 'img/4375173_logo_python_icon.svg',
-        title: 'CC Exhibition',
-        description: 'Appreciate various creations applying CC license of artists, organized from Art Center Nabi.',
+        icon: '<i class="fa-brands fa-html5 fa-3x ash"></i>',
+        title: 'HTML 5',
+        description: 'HTML5 is a markup language used for structuring and presenting content on the World Wide Web.',
     },
     {
         id: 2,
-        icon: 'img/4375173_logo_python_icon.svg',
-        title: 'Forum',
-        description: 'Have the time to share your thoughts and opinions with experts for each topic.',
+        icon: '<i class="fa-brands fa-css3-alt fa-3x ash"></i>',
+        title: 'CSS 3',
+        description: 'Cascading Style Sheet level 3 is the advanced version of CSS. It is used for structuring, styling, and formatting web pages.',
     },
     {
         id: 3,
-        icon: 'img/4375173_logo_python_icon.svg',
-        title: 'Workshop',
-        description: 'Try creating your own work using open source license rather than just watching.',
+        icon: '<i class="fa-brands fa-square-js fa-3x ash"></i>',
+        title: 'JavaScript',
+        description: 'It is an object-oriented computer programming language commonly used to create interactive effects within web browsers.',
     },
     {
         id: 4,
-        icon: 'img/4375173_logo_python_icon.svg',
-        title: 'CC Ignite',
-        description: 'Get opportunities to network with CC affiliates around the world, also after the summit.',
+        icon: '<i class="fa-brands fa-java fa-3x ash"></i>',
+        title: 'Java',
+        description: 'Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies.',
     }
 ]
 
@@ -39,7 +39,7 @@ programArr.forEach((program) => {
     html += `
         <section class="main-prog">
             <div class="icon">
-                <object data="${program.icon}" alt=""></object>
+                ${program.icon}
             </div>
             <div class="title">
                 <p>${program.title}</p>
