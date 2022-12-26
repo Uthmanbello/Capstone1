@@ -31,7 +31,7 @@ speakerArr.forEach((speaker) => {
             <hr class="rule2">
             <p class="speaker-msg">${speaker.message}</p>
         </div>
-    </section>`;
+    </section`;
 });
 
 speakersSection.innerHTML = html;

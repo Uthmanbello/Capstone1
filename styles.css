@@ -75,7 +75,7 @@ a {
   .nav-link {
     color: #272A31;
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 900;
   }
 
   .nav-item {
@@ -149,7 +149,7 @@ a {
   width: 100%;
   font-size: 1.5em;
   margin: 0;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .venue {
@@ -174,6 +174,7 @@ a {
   text-align: center;
   padding-top: 12px;
   margin-bottom: 10px;
+  font-weight: 900;
 }
 
 .rule1 {
@@ -231,6 +232,7 @@ a {
 
 .section3 .sub-head {
   color:#272A31;
+  font-weight: 900;
 }
 
 .speakers {
@@ -255,6 +257,7 @@ a {
 
 .speaker-name {
   margin: 5px 0;
+  font-weight: 900;
 }
 
 .speaker-desc {
@@ -326,7 +329,7 @@ a {
 .email {
   text-align: center;
   font-size: 0.7em;
-  font-weight: bold;
+  font-weight: 900;
   text-decoration: underline;
   margin: 0 auto;
 }
@@ -336,6 +339,9 @@ a {
   text-align: center;
   padding-top: 12px;
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 900;
 }
 
 .rule1-a {
