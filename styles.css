@@ -678,7 +678,7 @@ header {
   font-size: 1em;
 }
 
-.logo-exp {
+.section2-a .contact {
   width: 40%;
   margin-top: 0;
   text-align: center;
@@ -686,5 +686,18 @@ header {
 
 .logo-a {
   width: 30%;
+}
+
+.section3-a .contact {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.past-wrap {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: space-between;
+  gap: 20px;
 }
 }
