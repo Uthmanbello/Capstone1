@@ -443,8 +443,7 @@ a {
   align-items: center;
   font-size: 0.8em;
   background-color: #272A31;
-  padding: 10px;
-  padding-right: 
+  padding: 10px; 
 }
 
 .socials-items {
@@ -629,5 +628,46 @@ header {
 .item .logo-pic {
   max-width: 25%;
   max-height: 50%;
+}
+
+/* ===========================================
+        Main body - about - desktop
+=========================================== */
+.section1-a {
+ padding-left: 15%;
+ padding-right: 15%;
+}
+
+.greeting-a {
+  display: none;
+}
+
+.main-head-a {
+  font-size: 3em;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.rule1-a {
+  display: block;
+  width: 4%;
+}
+
+.section1-a .rule1-a {
+  margin: 30px auto;
+}
+.info-div-a {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+.contact {
+  margin-top: 50px;
+  font-size: 1em;
+}
+
+.email {
+  font-size: 1em;
 }
 }
