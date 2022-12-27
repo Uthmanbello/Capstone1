@@ -700,4 +700,20 @@ header {
   justify-content: space-between;
   gap: 20px;
 }
+
+/* ===========================================
+        Footer - about - desktop
+=========================================== */
+.footer-sec1 {
+  display: none;
+}
+
+.footer-sec2 {
+  background-color: #272A31;
+  color: #D3D3D3;
+}
+
+.footer-sec2 .logo-pic {
+  background-color: #D3D3D3;
+}
 }
