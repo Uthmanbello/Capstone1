@@ -45,10 +45,10 @@ programArr.forEach((program) => {
                 ${program.icon}
             </div>
             <div class="title">
-                <p>${program.title}</p>
+                <p class="title-item">${program.title}</p>
             </div>
             <div class="desc">
-                <p>${program.description}</p>
+                <p class="desc-item">${program.description}</p>
             </div>
         </section>`;
 });

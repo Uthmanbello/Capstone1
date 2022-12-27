@@ -67,7 +67,7 @@ a {
     width: 100%;
     transition: 0.3s;
     margin-left: 0;
-    display: block;
+    display: none;
     padding-top: 50px;
     margin-bottom: 30px;
   }
@@ -91,6 +91,7 @@ a {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     margin-top: 0;
+    display: block;
   }
   
   .bar {
@@ -103,7 +104,7 @@ a {
     background-color: #272A31;
   }
   
-  /* ===========================================
+/* ===========================================
         Main body
 =========================================== */
 
@@ -142,6 +143,7 @@ a {
   padding: 0 10px;
   font-size: 0.7em;
   line-height: 2em;
+  color: #272A31;
 }
 
 .date {
@@ -150,6 +152,7 @@ a {
   font-size: 1.5em;
   margin: 0;
   font-weight: 900;
+  color: #272A31;
 }
 
 .venue {
@@ -157,6 +160,7 @@ a {
   width: 100%;
   font-size: 0.8em;
   margin: 0;
+  color: #272A31;
 }
 
 .section2 {
@@ -295,7 +299,7 @@ a {
   color:#EC5242
 }
 
- /* ===========================================
+/* ===========================================
         Main body - about page
 =========================================== */
 .greeting-a {
@@ -386,7 +390,7 @@ a {
   font-size: 2.5em;
 }
 
- /* ===========================================
+/* ===========================================
         Footer - about page
 =========================================== */
 .footer-sec1 {
@@ -419,4 +423,157 @@ a {
 .item {
   flex-basis: 50%;
   font-size: 0.6em;
+}
+
+@media only screen and (min-device-width: 768px) {
+/* ===========================================
+        Navbar - desktop
+=========================================== */
+.desk-none {
+  display: none;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8em;
+  background-color: #272A31;
+  padding: 10px;
+  padding-right: 
+}
+
+.socials-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-left: 60%;
+}
+
+.logo {
+  display: block;
+}
+
+header {
+  background-color: transparent;
+  width: 350px;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40%;
+  background-color: white;
+}
+
+.nav-menu {
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding-left: 170%;
+  margin: 0;
+  flex-basis: 40%;
+
+}
+
+.nav-link {
+  transition: 0.7s ease;
+  color: #272A31;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #EC5242;
+}
+
+.nav-item {
+  padding: 0;
+  margin: 0;
+}
+
+/* ===========================================
+        Main body - desktop
+=========================================== */
+.section1 {
+  padding-left: 12%;
+  padding-right: 30%;
+  height: 100vh;
+}
+
+.greeting {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.main-head {
+  margin: 1% auto;
+  font-size: 4.2em;
+}
+
+.info {
+  font-size: 1em;
+}
+
+.info-div {
+  width: 80%;
+  padding: 10px;
+}
+
+.date {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.venue {
+  font-size: 1.2em;
+}
+
+.rule1 {
+  width: 4%;
+}
+
+.sub-head {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.main-prog {
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+  margin-top: 32px;
+}
+
+.progs {
+  display: flex;
+  padding-left: 12%;
+  padding-right: 12%;
+  justify-content: space-around;
+  gap: 3px;
+}
+
+.title-item {
+  margin: 0;
+  padding: 0;
+}
+.desc-item {
+  margin: 0;
+  padding: 0;
+}
+
+.sec2-link-d {
+  display: block;
+  text-decoration: underline;
+  color: #D3D3D3;
+  text-align: center;
+  margin: 50px;
+  font-size: 0.9em;
+}
 }
