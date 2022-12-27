@@ -583,6 +583,9 @@ header {
   font-size: 0.9em;
 }
 
+.sec2-link-d:hover {
+  transform: scale(1.05);
+}
 .speaker-sec {
   display: flex;
   padding-left: 12%;
