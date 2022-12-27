@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color: #f7f7f7;
   margin: 0;
   padding: 0;
 }
@@ -551,6 +552,9 @@ header {
   margin-top: 32px;
 }
 
+.main-prog:hover {
+  border: 2px solid #f7f7f7;
+}
 .progs {
   display: flex;
   padding-left: 12%;
@@ -575,5 +579,16 @@ header {
   text-align: center;
   margin: 50px;
   font-size: 0.9em;
+}
+
+.speaker-sec {
+  display: flex;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.speakers {
+  flex-basis: 50%;
+  font-size: 1.3em;
 }
 }
