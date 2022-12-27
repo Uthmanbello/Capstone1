@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #fdfdfd;
   margin: 0;
   padding: 0;
 }
@@ -314,7 +314,7 @@ a {
 }
 
 .info-div-a {
-  background-color: white;
+  background-color: #fdfdfd;
 }
 
 .info-a {
@@ -361,6 +361,7 @@ a {
   justify-content: center;
   box-sizing: border-box;
   border: 1px solid #D3D3D3;
+  background-color: #fdfdfd;
   width: 80%;
   margin: 32px auto;
   height: 12vh;
@@ -369,6 +370,7 @@ a {
 .logo-pic {
   max-width: 100%;
   max-height: 100%;
+  background-color: #fdfdfd
 }
 .past {
   background: url('img/Snapshoot\ Portfolio.png;');
@@ -590,5 +592,39 @@ header {
 .speakers {
   flex-basis: 50%;
   font-size: 1.3em;
+}
+
+/* ===========================================
+        Footer - desktop
+=========================================== */
+.foot {
+  display: block;
+}
+
+.footer-sec1 .sub-head {
+  padding-bottom: 8px;
+}
+.partners {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+}
+
+.footer-sec2 {
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.item1 {
+  flex-basis: 15%;
+}
+.item2 {
+  flex-basis: 100%;
+  font-size: 0.7em;
+}
+
+.item .logo-pic {
+  max-width: 25%;
+  max-height: 50%;
 }
 }
