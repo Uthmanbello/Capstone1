@@ -2,7 +2,7 @@
         Utility Styles
 ========================================= */
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: 'Lato', sans-serif;
 }
 
@@ -32,18 +32,8 @@ a {
 /* ===========================================
         Nav bar
 =========================================== */
-
-.header {
-    width: 100%;
-  }
-
-  li a {
-    color: white;
-  }
-
   .nav-icon {
-    padding: 16px 24px;
-    width: 85%;
+    padding: 20px 16px;
   }
 
   .nav-icon.active .bar:nth-child(2) {
@@ -51,26 +41,17 @@ a {
   }
 
   .nav-icon.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(16px) rotate(45deg);
     background-color: #272A31;
   }
 
   .nav-icon.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-4px) rotate(-45deg);
     background-color: #272A31;
   }
 
   .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 0;
-    gap: 0;
-    width: 100%;
-    transition: 0.3s;
-    margin-left: 0;
-    display: none;
-    padding-top: 50px;
-    margin-bottom: 30px;
+    display: none; 
   }
 
   .nav-link {
@@ -91,8 +72,10 @@ a {
     background-color: #d3d3d3bb;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    margin-top: 0;
+    margin-top: -10px;
     display: block;
+    padding-top: 80px;
+    position: fixed;
   }
   
   .bar {
@@ -443,54 +426,53 @@ a {
 }
 
 .socials {
-  width: 100%;
+  width: 99.2%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 0.8em;
   background-color: #272A31;
-  padding: 10px; 
+  padding: 5px;
 }
 
 .socials-items {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  padding-left: 60%;
+  padding-left: 65%;
 }
 
 .logo {
   display: block;
 }
 
-header {
-  background-color: transparent;
-  width: 350px;
+.nav-logo {
+  margin-left: 28%;
+  max-width: 10%;
+  max-height: 100%;
 }
 
 .navbar {
-  min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 40%;
-  background-color: white;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
 }
 
 .nav-menu {
-  /* background-color: white; */
   display: flex;
   align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding-left: 170%;
+  gap: 50px;
+  padding-right: 4%;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin: 0;
-  flex-basis: 40%;
+  flex-basis: 55%;
 
 }
 
 .nav-link {
-  transition: 0.7s ease;
   color: #272A31;
   font-size: 0.9em;
   font-weight: 700;
@@ -498,8 +480,12 @@ header {
 
 .nav-link:hover {
   color: #EC5242;
+  border: 2px solid #EC5242;
 }
 
+.nav-link:visited {
+  color: #EC5242
+}
 .nav-item {
   padding: 0;
   margin: 0;
@@ -511,10 +497,10 @@ header {
 .section1 {
   padding-left: 12%;
   padding-right: 30%;
-  height: 100vh;
 }
 
 .greeting {
+  margin-top: 10%;
   font-size: 2.5em;
   font-weight: 700;
 }
@@ -541,6 +527,7 @@ header {
 
 .venue {
   font-size: 1.2em;
+  padding-bottom: 10%;
 }
 
 .rule1 {
@@ -584,7 +571,7 @@ header {
   text-decoration: underline;
   color: #D3D3D3;
   text-align: center;
-  margin: 50px;
+  margin: 50px 42%;
   font-size: 0.9em;
 }
 
@@ -704,16 +691,16 @@ header {
 /* ===========================================
         Footer - about - desktop
 =========================================== */
-.footer-sec1 {
+.footer-sec1-a {
   display: none;
 }
 
-.footer-sec2 {
+.footer-sec2-a {
   background-color: #272A31;
   color: #D3D3D3;
 }
 
-.footer-sec2 .logo-pic {
+.footer-sec2-a .item-logo {
   background-color: #D3D3D3;
 }
 }
