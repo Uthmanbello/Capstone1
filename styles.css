@@ -276,6 +276,10 @@ a {
   font-size: 0.6em;
 }
 
+.add-speaker-sec.open {
+  display: block;
+}
+
 .sec3-link {
   width: 75%;
   margin: 10px;
