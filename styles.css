@@ -639,6 +639,7 @@ a {
   font-size: 3em;
   padding-left: 8%;
   padding-right: 8%;
+  margin-top: 6%;
 }
 
 .rule1-a {
@@ -663,6 +664,7 @@ a {
 
 .email {
   font-size: 1em;
+  padding-bottom: 6%;
 }
 
 .section2-a .contact {
