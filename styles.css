@@ -611,6 +611,13 @@ a {
   padding-right: 12%;
 }
 
+.add-speaker-sec {
+  display: block;
+  display: flex;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
 .speakers {
   flex-basis: 50%;
   font-size: 1.3em;

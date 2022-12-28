@@ -69,9 +69,9 @@ const speakerArr = [
     {
         id: 1,
         img: 'img/ali.jpeg',
-        name: 'Ali Imoukhuede',
+        name: 'Imoukhuede Ali',
         description: 'Web Developer and Network Engineer',
-        message:'Ali is a network engineer with a CCNP title. He is also a computer engineer who delves into software engineering components.',
+        message:'Imoukhuede is a network engineer with a CCNP title. He is also a computer engineer who delves into software engineering components.',
     }
 ]
 
@@ -95,3 +95,41 @@ speakerArr.forEach((speaker) => {
 });
 
 speakersSection.innerHTML = html1;
+
+const addSpeakerArr = [
+    {
+        id: 0,
+        img: 'img/sulaiman.jpeg',
+        name: 'Sulaiman Adoga',
+        description: 'Programmer and Audio-Visual Engineer',
+        message:'Sulaiman is a programmer and a seasoned AV Engineer with a wealth of experience in real time media.',
+    },
+    {
+        id: 1,
+        img: 'img/serg.jpeg',
+        name: 'Ataneh Muhammad',
+        description: 'Mathematical Scientist and Statistician',
+        message:'Ataneh is a mathematical consultant who specializes in AI and ML tools and components used for Data Science and Data Analytics.',
+    }
+]
+
+const addSpeakerSection = document.querySelector('.add-speaker-sec');
+
+let html2 = '';
+
+addSpeakerArr.forEach((speaker) => {
+    html2 += `
+    <section class="speakers">
+        <div class="speaker-img">
+            <img src="${speaker.img}" class="dp">
+        </div>
+        <div class="speaker-info">
+            <h5 class="speaker-name">${speaker.name}</h5>
+            <p class="speaker-desc">${speaker.description}</p>
+            <hr class="rule2">
+            <p class="speaker-msg">${speaker.message}</p>
+        </div>
+    </section>`
+});
+
+addSpeakerSection.innerHTML = html2;
