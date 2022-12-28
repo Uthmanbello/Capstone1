@@ -58,7 +58,7 @@ a {
   }
 
   .nav-icon.active .bar:nth-child(3) {
-    transform: translateY(-4px) rotate(-45deg);
+    transform: translateY(0px) rotate(-45deg);
     background-color: #272A31;
   }
 
