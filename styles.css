@@ -24,6 +24,18 @@ a {
     display: none;
 }
 
+.red {
+  color: #EC5242;
+}
+
+.black {
+  color: #272A31;
+}
+
+.ash {
+  color: #D3D3D3;
+}
+
 .section {
   background: url('img/pexels-henry-&-co-1939485.jpg');
   background-size: contain;
@@ -184,10 +196,6 @@ a {
 
 .icon {
   flex-basis: 20%;
-}
-
-.ash {
-  color: #D3D3D3;
 }
 
 .title {
@@ -640,6 +648,17 @@ a {
 .item .logo-pic {
   max-width: 25%;
   max-height: 50%;
+}
+
+/* ===========================================
+        Nav - about - desktop
+=========================================== */
+.navigate {
+  display: block;
+  float: right;
+  font-size: 0.7em;
+  padding-top: 1.5%;
+  padding-right: 10%;
 }
 
 /* ===========================================
