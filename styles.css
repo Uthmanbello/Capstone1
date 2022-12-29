@@ -2,7 +2,7 @@
         Utility Styles
 ========================================= */
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: 'Lato', sans-serif;
 }
 
@@ -210,8 +210,8 @@ a {
   line-height: 1.5em;
 }
 
-.sec2-link {
-  width: 86%;
+.join-btn {
+  width: 80%;
   margin: 32px;
   padding: 24px 32px;
   color: white;
@@ -285,19 +285,16 @@ button {
   display: block;
 }
 
-.sec3-link {
-  width: 75%;
-  margin: 10px;
+.more-btn {
+  box-sizing: border-box;
+  width: 93%;
+  margin: 24px 12px;
   padding: 12px 32px;
   color: #272A31;
   font-size: 0.8em;
   border: 1px solid #D3D3D3;
   font-size: 0.9em;
   text-align: center;
-}
-
-.fa-angle-down {
-  color:#EC5242
 }
 
 /* ===========================================
@@ -436,7 +433,6 @@ button {
   color: white;
   text-align: center;
   padding: auto;
-  margin: 12px auto;
   height: 25vh;
   font-size: 0.8em;
   display: flex;
