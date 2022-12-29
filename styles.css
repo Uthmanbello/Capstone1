@@ -2,7 +2,6 @@
         Utility Styles
 ========================================= */
 * {
-  border: 1px solid red;
   font-family: 'Lato', sans-serif;
 }
 
@@ -285,6 +284,14 @@ button {
   display: block;
 }
 
+.less-info.open {
+  display: none;
+}
+
+.more-info.open {
+  display: block;
+}
+
 .more-btn {
   box-sizing: border-box;
   width: 93%;
@@ -307,7 +314,7 @@ button {
   width: 100vw;
   height: 100vh;
   background-color: #2c2c2cd0;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .popup-content {
