@@ -211,7 +211,7 @@ a {
 }
 
 .sec2-link {
-  width:60%;
+  width: 86%;
   margin: 32px;
   padding: 24px 32px;
   color: white;
@@ -219,6 +219,11 @@ a {
   font-size: 0.9em;
   display: flex;
   justify-content: center;
+}
+
+button {
+  border: none;
+  background: none;
 }
 
 .section3 {
@@ -293,6 +298,59 @@ a {
 
 .fa-angle-down {
   color:#EC5242
+}
+
+/* ===========================================
+        Popup - mobile - homepage
+=========================================== */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2c2c2cd0;
+  padding-top: 20%;
+}
+
+.popup-content {
+  background-color: #f7f7f7;
+  width: 95%;
+  margin: 70px auto;
+  padding: 5px 25px 30px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.popup-close {
+  float: right;
+  font-size: 1.5em;
+}
+
+.form {
+  margin: 60px 0;
+}
+.label {
+  display: block;
+}
+
+.email-txt {
+  display: block;
+  border-radius: 5px;
+  width: 90%;
+  height: 5vh;
+  font-size: 0.8em;
+  padding: 5px;
+  margin: 10px 0;
+  border: none;
+}
+
+.submit {
+  background-color: #EC5242;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
 }
 
 /* ===========================================

@@ -95,9 +95,9 @@
         </p>
         <hr class="rule1">
         <section class="progs"></section>
-        <a href="#">
+        <button class="join-btn">
             <div class="sec2-link desk-none">Join De Royale '23</div>
-        </a>
+        </button>
         <a href="#">
             <div class="sec2-link-d mob-none" id="join">SEE THE WHOLE PROGRAM</div>
         </a>
@@ -141,5 +141,22 @@
             </div>
         </section>
     </footer>
+
+    <!-- =======================================
+                Popup - mobile - homepage
+    ======================================== -->
+    <div class="popup mob-none desk-none">
+        <div class="popup-content">
+            <div class="popup-header">
+                <i class="fa-solid fa-xmark popup-close black"></i>
+                <h2 class="popup-title black">Welcome!</h2>
+            </div>
+            <form action="https://formspree.io/f/xlevqnng" method="post" class="form">
+                <label for="emailid" class="label black">Email<input type="email" class="email-txt" id="emailid" placeholder="example@xyz.com" name="email" required /></label>
+                <label for="pwd" class="label black">Password<input type="password" class="email-txt" id="pwd" placeholder="Enter password" name="password" required /></label>
+                <button class="submit black" type="submit" >Sign in</button>
+            </form>
+            <a href="#" class="red">Forgot password?</a>
+        </div>
 </body>
 </html>
