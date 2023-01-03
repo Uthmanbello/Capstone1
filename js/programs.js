@@ -82,8 +82,11 @@ let html1 = '';
 speakerArr.forEach((speaker) => {
     html1 += `
     <section class="speakers">
-        <div class="speaker-img">
-            <img src="${speaker.img}" class="dp">
+        <div class="speaker-wrap">
+            <div class="speaker-back"></div>
+            <div class="speaker-img">
+                <img src="${speaker.img}" class="dp">
+            </div>
         </div>
         <div class="speaker-info">
             <h5 class="speaker-name">${speaker.name}</h5>
@@ -120,8 +123,11 @@ let html2 = '';
 addSpeakerArr.forEach((speaker) => {
     html2 += `
     <section class="speakers">
-        <div class="speaker-img">
-            <img src="${speaker.img}" class="dp">
+        <div class = "speaker-wrap">
+            <div class="speaker-back"></div>
+            <div class="speaker-img">
+                <img src="${speaker.img}" class="dp">
+            </div>
         </div>
         <div class="speaker-info">
             <h5 class="speaker-name">${speaker.name}</h5>

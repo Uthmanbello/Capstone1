@@ -248,8 +248,30 @@ button {
   padding: 10px;
 }
 
-.speaker-img {
+.speaker-wrap {
+  /* background-image: url('img/speaker-sec.jpeg');
+  background-size: contain; */
   flex-basis: 34%;
+  /* position: relative;
+  z-index: 0;
+  top: 0;
+  bottom: 0;  */
+}
+
+.speaker-back {
+  background-image: url('img/speaker-sec.jpeg');
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+.speaker-img {
+  margin-left: 12px;
+  margin-top: -48px;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
 }
 
 .dp {
@@ -373,6 +395,8 @@ button {
   text-align: center;
   font-size: 1.9em;
   margin: 16px auto 32px;
+  background-image: none;
+  color: #EC5242;
 }
 
 .info-div-a {
