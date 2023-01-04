@@ -45,7 +45,7 @@ programArr.forEach((program) => {
                 ${program.icon}
             </div>
             <div class="title">
-                <p class="title-item">${program.title}</p>
+                <h5 class="title-item">${program.title}</h5>
             </div>
             <div class="desc">
                 <p class="desc-item">${program.description}</p>
@@ -62,6 +62,7 @@ const speakerArr = [
   {
     id: 0,
     img: 'img/me.jpg',
+    alt: 'Uthman',
     name: 'Uthman Bello',
     description: 'Web Developer and Software Engineer',
     message: 'Uthman is a software developer who is also into Data Science. He has a wealth of experience in tutoring.',
@@ -69,6 +70,7 @@ const speakerArr = [
   {
     id: 1,
     img: 'img/ali.jpeg',
+    alt: 'Imoukhuede',
     name: 'Imoukhuede Ali',
     description: 'Web Developer and Network Engineer',
     message: 'Imoukhuede is a network engineer with a CCNP title. He is also a computer engineer who delves into software engineering components.',
@@ -85,7 +87,7 @@ speakerArr.forEach((speaker) => {
         <div class="speaker-wrap">
             <div class="speaker-back"></div>
             <div class="speaker-img">
-                <img src="${speaker.img}" class="dp">
+                <img src="${speaker.img}" alt="${speaker.alt}" class="dp">
             </div>
         </div>
         <div class="speaker-info">
@@ -103,6 +105,7 @@ const addSpeakerArr = [
   {
     id: 0,
     img: 'img/sulaiman.jpeg',
+    alt: 'Sulaiman',
     name: 'Sulaiman Adoga',
     description: 'Programmer and Audio-Visual Engineer',
     message: 'Sulaiman is a programmer and a seasoned AV Engineer with a wealth of experience in real time media.',
@@ -110,6 +113,7 @@ const addSpeakerArr = [
   {
     id: 1,
     img: 'img/serg.jpeg',
+    alt: 'Ataneh',
     name: 'Ataneh Muhammad',
     description: 'Mathematical Scientist and Statistician',
     message: 'Ataneh is a mathematical consultant who specializes in AI and ML tools and components used for Data Science and Data Analytics.',
@@ -126,7 +130,7 @@ addSpeakerArr.forEach((speaker) => {
         <div class = "speaker-wrap">
             <div class="speaker-back"></div>
             <div class="speaker-img">
-                <img src="${speaker.img}" class="dp">
+                <img src="${speaker.img}" alt="${speaker.alt}" class="dp">
             </div>
         </div>
         <div class="speaker-info">

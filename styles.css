@@ -2,7 +2,7 @@
         Utility Styles
 ========================================= */
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 body {
@@ -587,9 +587,13 @@ button {
     font-weight: 700;
   }
 
+  .nav-special {
+    color: #ec5242;
+    border: solid 2px #ec5242;
+  }
+
   .nav-link:hover {
     color: #ec5242;
-    border: 2px solid #ec5242;
   }
 
   .nav-link:visited {
