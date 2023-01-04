@@ -2,7 +2,7 @@
         Utility Styles
 ========================================= */
 * {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -124,10 +124,12 @@ a {
   color: transparent;
   background-position: right;
   background-size: cover;
-  padding: 0 10px;
+  padding: 5px 10px 10px;
   width: 100%;
-  font-size: 2em;
-  font-weight: 900;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 1.9em;
+  font-weight: 500;
+  line-height: 1.1;
   margin: 0;
 }
 
@@ -148,9 +150,10 @@ a {
 .date {
   padding: 10px;
   width: 100%;
-  font-size: 1.5em;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 1.3em;
   margin: 0;
-  font-weight: 900;
+  font-weight: 500;
   color: #272a31;
 }
 
@@ -383,7 +386,8 @@ button {
 
 .main-head-a {
   text-align: center;
-  font-size: 1.9em;
+  font-size: 1.8em;
+  font-weight: 500;
   margin: 16px auto 32px;
   background-image: none;
   color: #ec5242;
