@@ -128,7 +128,7 @@ a {
   width: 100%;
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 1.9em;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
   margin: 0;
 }
@@ -153,7 +153,7 @@ a {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 1.3em;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #272a31;
 }
 
@@ -387,7 +387,6 @@ button {
 .main-head-a {
   text-align: center;
   font-size: 1.8em;
-  font-weight: 500;
   margin: 16px auto 32px;
   background-image: none;
   color: #ec5242;
@@ -626,6 +625,7 @@ button {
   .main-head {
     margin: 1% auto;
     font-size: 4.2em;
+    font-weight: 500;
   }
 
   .info {
