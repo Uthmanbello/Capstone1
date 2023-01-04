@@ -145,30 +145,30 @@ addSpeakerArr.forEach((speaker) => {
 addSpeakerSection.innerHTML = html2;
 
 const addSpeakerArr1 = [
-    {
-      id: 0,
-      img: 'img/elon.jfif',
-      alt: 'Elon',
-      name: 'Elon Musk',
-      description: 'Business Magnate',
-      message: 'Elon is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.',
-    },
-    {
-      id: 1,
-      img: 'img/jeff.jpg',
-      alt: 'Jeff',
-      name: 'Jeff Bezos',
-      description: 'American Entrepreneur and Media Proprietor',
-      message: 'Jeff is the founder, executive chairman, and former president and CEO of Amazon.',
-    },
-  ];
-  
-  const addSpeakerSection1 = document.querySelector('.add-speaker-sec1');
-  
-  let html3 = '';
-  
-  addSpeakerArr1.forEach((speaker) => {
-    html3 += `
+  {
+    id: 0,
+    img: 'img/elon.jfif',
+    alt: 'Elon',
+    name: 'Elon Musk',
+    description: 'Business Magnate',
+    message: 'Elon is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.',
+  },
+  {
+    id: 1,
+    img: 'img/jeff.jpg',
+    alt: 'Jeff',
+    name: 'Jeff Bezos',
+    description: 'American Entrepreneur and Media Proprietor',
+    message: 'Jeff is the founder, executive chairman, and former president and CEO of Amazon.',
+  },
+];
+
+const addSpeakerSection1 = document.querySelector('.add-speaker-sec1');
+
+let html3 = '';
+
+addSpeakerArr1.forEach((speaker) => {
+  html3 += `
       <section class="speakers">
           <div class = "speaker-wrap">
               <div class="speaker-back"></div>
@@ -183,6 +183,6 @@ const addSpeakerArr1 = [
               <p class="speaker-msg">${speaker.message}</p>
           </div>
       </section>`;
-  });
-  
-  addSpeakerSection1.innerHTML = html3;
+});
+
+addSpeakerSection1.innerHTML = html3;
