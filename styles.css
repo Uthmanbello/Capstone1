@@ -304,6 +304,10 @@ button {
   display: block;
 }
 
+.add-speaker-sec1.open {
+  display: block;
+}
+
 .less-info.open {
   display: none;
 }
@@ -707,6 +711,13 @@ button {
   }
 
   .add-speaker-sec {
+    display: block;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .add-speaker-sec1 {
     display: block;
     display: flex;
     padding-left: 12%;
