@@ -41,13 +41,9 @@
 
 ## 💻 Project Presentation <a name="live-demo"></a>
 
-> Add a link to your project presentation.
-
 - [Presentation Link](https://www.loom.com/share/d0faf943cfd642e0995a55c06606e6b4)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://uthmanbello.github.io/Capstone1/)
 
