@@ -5,7 +5,7 @@
   <img src="img/logo-2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone Project</b></h3>
+  <h3><b>De Royale Institute</b></h3>
 
 </div>
 
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone Project 1] <a name="about-project"></a>
+# 📖 [De Royale Institute] <a name="about-project"></a>
 
-**[Capstone Project 1 ]** is a project that is a website for marathon courses offered by a programming institute
+**[De Royale Institute]** is a project that is a website for marathon courses offered by a programming institute
 
 ## 🛠 Built With <a name="built-with"></a>
 -HTML
