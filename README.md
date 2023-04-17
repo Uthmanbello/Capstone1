@@ -9,8 +9,6 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -27,8 +25,6 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [De Royale Institute] <a name="about-project"></a>
 
@@ -57,23 +53,23 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--You need to have a code editor installed
--Your linters environment must be fully setup
+-to have a code editor installed
+-to have your linters environment fully setup
 ### Setup
 
 Clone this repository to your desired folder:
 
 To clone this repository to your desired folder, use your code editor terminal or git bash, then type the command below:
 
-git clone https://github.com/Uthmanbello/Capstone1
+git clone `https://github.com/Uthmanbello/Capstone1`
 
 ### Install
 
 1. Install WebHint:
-npm install --save-dev hint@7.x
+`npm install --save-dev hint@7.x`
 
-2. Install StyleLint
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+2. Install StyleLint:
+`npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
 
 ### Usage
 
@@ -87,10 +83,10 @@ To run tests, run the following command:
 
 To run tests and check for errors:
 - After installing the required linter,
-npx stylelint "**/*.{css,scss}"
+`npx stylelint "**/*.{css,scss}"`
 
 - To fix CSS or SCSS linters error:
-npx stylelint "**/*.{css,scss}" --fix
+`npx stylelint "**/*.{css,scss}" --fix`
 
 ### Deployment
 
@@ -100,13 +96,13 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Uthmanbello)
-- Twitter: [@twitterhandle](https://twitter.com/UthmanDeRoyale)
-- LinkedIn: [LinkedIn](linkedin.com/in/uthman-igein-bello-imoukhuede)
+- GitHub: [@Uthmanbello](https://github.com/Uthmanbello)
+- Twitter: [@UthmanDeRoyale](https://twitter.com/UthmanDeRoyale)
+- LinkedIn: [Uthman Bello-Imoukhuede](linkedin.com/in/uthmanbelloimoukhuede)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +113,7 @@ More elements, styling and UX aspects will be added to the work
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Uthmanbello/Capstone1/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,11 +136,9 @@ I would like to also give credit to Cindy Shin in Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Uthmanbello/Capstone1/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
